@@ -30,4 +30,4 @@ $ npm run clean # clean production build
 # Netlify Settings
 
  * Build command: `npm ci && npm run make`
- * Publish directory: `dists`
+ * Publish directory: `dist`

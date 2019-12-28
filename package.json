@@ -10,11 +10,11 @@
     "sass": "^1.24.0"
   },
   "scripts": {
-    "start": "parcel src/index.html --out-dir dists --open",
+    "start": "parcel src/index.html --open",
     "test": "elm-test",
     "watch": "elm-test --watch",
-    "make": "npm run clean && cp -r static dists && parcel build src/index.html --out-dir dists",
-    "serve": "http-server dists -o",
-    "clean": "rm -rf dists"
+    "make": "npm run clean && cp -r static dist && parcel build src/index.html",
+    "serve": "http-server dist -o",
+    "clean": "rm -rf dist"
   }
 }

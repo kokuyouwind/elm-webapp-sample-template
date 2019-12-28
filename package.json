@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html --open",
-    "test": "elm-test",
+    "test": "elm-analyse && elm-test",
     "watch": "elm-test --watch",
     "make": "npm run clean && cp -r static dist && parcel build src/index.html",
     "serve": "http-server dist -o",
